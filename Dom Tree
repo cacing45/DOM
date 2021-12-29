@@ -1,0 +1,20 @@
+Dom Tree
+
+Semua element adalah node/simpul
+tipe dari node:
+1. semua element Html adalah elemwnt
+2. tulisan/kata adlah Text
+3. atribut adalah seperti hrep dll
+
+menjadi fucus pada pertemuan ini adalah
+1. element
+2. text
+3. Document
+
+Apa itu nodelist dan HTML collection?
+node list => lebih dari satu node atau simpul
+HtmlCollection => Kumpulan dari pada node yang hanya berisi Element
+
+Root node=> sumber node
+parent node =>
+Child node =>
