@@ -1,0 +1,29 @@
+Dom ==> untuk berintraksi dengan document atau halaman dari HTML
+
+Document Obyect Model
+Document => isi dari web berasal dari HTML
+object => sebuah nilai atau tipe data
+model => Reprentasi
+ jadi Dom adalah sebuah reprentasi document yang berbasis html yang diolah melalui sebuah nilai atau tipe data yang dapat di manipulasi ataupun di selection
+
+coba
+Console: document /cosole.log(document);
+
+Tree:
+
+window 
+  |
+document
+  |
+  html
+   /\
+body head
+/\    /\
+p h1 title  meta meta
+
+yang dipelajari pada DOM:
+1. DOM Selection
+2. DOM Manipulation
+3. DOM Traversal
+4. Event Hendling
+5. Studi Kasus
