@@ -1,0 +1,22 @@
+Dom section
+
+1. getElementById ---> element
+2. getElementByTagName ---> HTMLcollection
+3. getElementByClassName ---> HTMLcollection
+4. querySelector ---> element
+5. querySelectorall ---> Nodelist
+
+# getElementById
+//const p= document.getElementById('bisa');
+# getElementByTagName
+//const p=document,getElementByTagName('p')[1]; ^menggunakan array karna HTMLcollection^
+# getElementByClassName ^teliti^
+# querySelector
+//const p=document.querySelector('section #b p');
+# querySelectorAll
+//const p=document.querySlectorAll('p');
+
+*mengubah node root*
+
+//const nodeb=document.getElementById('b'); --> alamatkan nodeb
+// const lewatnodeb=nodeb.querySelector('p'); --> gunakan nodeb sebagai pengganti document
