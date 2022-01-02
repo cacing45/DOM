@@ -20,3 +20,6 @@ Dom section
 
 //const nodeb=document.getElementById('b'); --> alamatkan nodeb
 // const lewatnodeb=nodeb.querySelector('p'); --> gunakan nodeb sebagai pengganti document
+
+
+$ getElementById tidak menggunakan # sementar querySelector Menggunakan
