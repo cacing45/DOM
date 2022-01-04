@@ -1,0 +1,39 @@
+-Manipulation Element
+-Node Manipulation
+
+
+1. Manipulation Element
+  1. Inner Html ="";
+  2. element.style.property css ="";
+  3. element.setAtribute
+    *element.setAtribute('id','B');
+    *getAtribute('b');
+    *removeAtribute('b');
+  4. element.classList
+    *element.classList.add('label','yogi');
+    *remove
+    *toggle
+    *item ---> mencari('class');
+    *contains ---> bertanya('text')
+    *replace --->mengganti opsi harus dua""
+    
+ 2. Manipulasi node
+  langkah yang harus dilakukan
+  - buat element
+  - buat text
+  - gabung element
+  - masukkan pada section/ element in selection
+  
+  1. const pBaru= document.createElement('p'); ---> membuat element dengan opsi paragraf
+  2. const tBaru= document.createTextNode('aku pasti bisa melakuakan semua itu');
+  3. pBaru.appendChild(tbaru); --> gabung
+  4. const sectionA= document.getElementById(a);--> section berada di perent(bapaknya)   
+     sectionA.appendChild(pBaru);{
+  5. } const p1= document.querySelectorAll(section#a p)[0]; ---> menambahkan p baru ke 2
+       sectionA.insertBefore(pBaru,p1);
+  6. sectionA.removeChild(p1);
+  7. SectionA.replaceChild(pBaru,p1)--> mengganti
+  
+  
+  
+  
