@@ -1,0 +1,27 @@
+Dom Events
+--> memperesentasikan sebuah kejadian pada dom yang dilakukan oleh user atau API
+
+1. Events Hendler ---> mendengarkan
+  dua cara
+  -inline Html attribute
+  -Element method
+  
+  ^const p3=document.querySelector(.p3);--> alamat pada p3
+  ^function ubahWarna(){    ---> function declaration
+    p3.style.backgrounColor='green';
+    }
+   - if inline html atribute p3 --->^onclick="ubahWarna()";
+   - if element method p3.onclick='ubahWarna';
+   
+2. addEventListener
+  ^ const p4=document.queryselector(section#b p);
+  ^ addEventListener('click',function(){
+  ^ const ul=document.querySelector(section#b ul);
+  ^ const libaru=document.createElement('li');
+  ^ const liText=document.createTextNode('li');
+  ^ liBaru.appendChild(liText);
+  ^ ul.appendChild(liBaru);
+  ^})
+
+  // event hendler bersifat menimpa
+  // addEventList bersifat menambahkan
