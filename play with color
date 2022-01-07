@@ -1,0 +1,57 @@
+1. Create Html
+2. Create css
+3. Create js
+
+
+1. // ubah warna dengan toggle
+html <botton type='botton' id='ubahWarna'>ubahWarna</botton>
+css  .ubahW{
+            backgrouncolor=pink; }
+js 
+  1. section botton=ubahWarna
+  2. section body
+  3. ubahWarna.onclick=function(){
+    document.body.classList.toggle('ubahW');
+  
+ 2. // acak warna dengan math:random
+  1. manipulasi node
+  2. tAcakWarana.setAttribute('input','button');
+  3. tUbahWarna.after(tAcakWarna);
+  4. tAcakWarna.addEventListener('click',function(){
+    const r=math.round(math.random()*225+1);
+    const g=math.round(math.random()*225+1);
+    const b=math.round(math.random()*225+1);
+    document.body.style.bakcgrounColor='rgb('+r+','+g+','+b+')';
+    
+ 3. // menggunakan slider
+    1. html
+    div class kotak merah
+      input=range nama=sMerah min=1 max=225; *3
+    2. css
+      kotak{ hight 25.25 margin 10p,auto
+      merah{backgrouncolor=red;
+    3. js
+      
+const sMerah=document.querySelector('input[name=sMerah]');
+addEventListener('input', function(){
+	const r=sMerah.value;
+	const g=sHijau.value;
+	const b=sBiru.value;
+	document.body.style.backgroundColor='rgb('+r+','+g+','+b+')'
+});
+const sHijau=document.querySelector('input[name=sHijau]');
+addEventListener('input', function(){
+	const r=sMerah.value;
+	const g=sHijau.value;
+	const b=sBiru.value;
+	document.body.style.backgroundColor='rgb('+r+','+g+','+b+')'
+});
+const sBiru=document.querySelector('input[name=sBiru]');
+addEventListener('input', function(){
+	const r=sMerah.value;
+	const g=sHijau.value;
+	const b=sBiru.value;
+	document.body.style.backgroundColor='rgb('+r+','+g+','+b+')'
+});
+    
+    
