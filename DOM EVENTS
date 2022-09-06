@@ -22,6 +22,8 @@ Dom Events
   ^ liBaru.appendChild(liText);
   ^ ul.appendChild(liBaru);
   ^})
+  
+  3. membuat tampilan dengan lebih nyaman
 
   // event hendler bersifat menimpa
   // addEventList bersifat menambahkan
